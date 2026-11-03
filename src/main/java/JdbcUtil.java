@@ -22,8 +22,8 @@ public class JdbcUtil
 	public static Connection getDBConnection() throws SQLException
 	{
 		String url="jdbc:mysql://localhost:3306/registerapp";
-		String userName="root";
-		String password="Shantanu23";
+		String userName="Username";
+		String password="PassWord";
 	
 		return DriverManager.getConnection(url, userName, password);
 	}
